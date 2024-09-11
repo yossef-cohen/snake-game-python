@@ -3,7 +3,7 @@ import random
 
 
 class Food(Turtle):
-    # define a circle its size and color
+    # initialize a circle its size and color
     def __init__(self):
         super().__init__()
         self.shape("circle")

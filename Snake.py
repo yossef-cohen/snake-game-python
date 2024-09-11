@@ -8,7 +8,7 @@ RIGHT = 0
 
 
 class Snake:
-    # initialize the list that the snake going to be saved in
+    # initialize the list that the snake going to be saved
     def __init__(self):
         self.turtle_list = []
         self.create_snake()
